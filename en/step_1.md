@@ -1,19 +1,11 @@
-## Introduction
+The purpose of a **while** loop is to repeat code over and over while a condition is `True`. This is why while loops are sometimes referred to as **condition-controlled** loops.
 
-Add project description here. What will learners be making?
+Sometimes while loops are written to repeat a specified number of times:
 
-### What you will make
-
-Add something here to showcase here, for example:
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
-
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
-
-### What you will learn
-
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+```python
+counter = 0
+while counter < 10:
+    print("Counting...")
+    counter += 1
+```
+In this example, the condition is `counter < 10`. Since we add `1` to `counter` each time the loop runs, the loop will run 10 times.
