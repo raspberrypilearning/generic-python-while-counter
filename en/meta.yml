@@ -1,6 +1,6 @@
-title: While loop with a counter in Python
+title: While loop with a condition in Python
 hero_image: images/banner.png
-description: Learn how to create a while loop with a counter in Python
+description: Learn how to create a while loop with a condition in Python
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
 listed: false
